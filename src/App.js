@@ -14,7 +14,7 @@ function App() {
           <h1>What we do?</h1>
             <p>TDSC hosts a variety of opportunities for students to engage in. From student-led projects to short courses, monthly panels, and networking events, TDSC aims to provide students at Temple with experiences that can allow them to grow professionally and academically.</p>
           <h1>How do I join or learn more?</h1>
-            <p>Join us on discord at <a href ='http://bit.ly/templedatasciencecommunity'>http://bit.ly/templedatasciencecommunity</a>. For further questions or inquiries, email us at templedatasciencecommunity@gmail.com.</p>
+            <p>Join us on discord <a href ='http://bit.ly/templedatasciencecommunity'>here</a>! For further questions or inquiries, email us at templedatasciencecommunity@gmail.com.</p>
         </div>
     </div>
   );
