@@ -1,38 +1,55 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Title {
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+  position: absolute;
+  top: 11vh;
+  left: 23vw;
+  line-height: 1.2;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Sans Serif", Icons;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 600px){
+  .Title{
+    position: absolute;
+    top: auto;
+    left: auto;
   }
 }
+.Header{
+  max-width: inherit;
+  max-height: inherit;
+  position: relative; 
+  object-fit: cover;
+  height: inherit;
+  width: inherit;
+  z-index: -1;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Container{
+  width: 100vw;
+  height: 25vh;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Information{
+  text-align: left;
+  margin-top: 7vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Information p{
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Sans Serif', Icons;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.35);
 }
